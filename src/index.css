@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles */
+body {
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.dark {
+  --tw-bg-opacity: 1;
+  --tw-text-opacity: 1;
+  background-color: rgba(31, 41, 55, var(--tw-bg-opacity)); /* gray-800 */
+  color: rgba(249, 250, 251, var(--tw-text-opacity)); /* gray-50 */
+}
