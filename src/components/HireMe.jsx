@@ -1,12 +1,13 @@
 import React from 'react';
 import { FaGithub, FaLinkedin, FaMedium, FaYoutube } from 'react-icons/fa';
+import avatarImage from "../assets/HireMe.png";
 
 const HireMe = () => {
   return (
     <section id="hire-me" className="py-20 bg-black text-white">
       <div className="container mx-auto px-4 md:px-0 flex flex-col md:flex-row items-center justify-between">
         <div className="w-full md:w-1/3 mb-8 md:mb-0">
-          <img src="src/assets/HireMe.png" alt="Hire Me" className="w-72 mx-auto md:mx-0 md:mr-8" />
+          <img src={avatarImage} alt="Hire Me" className="w-72 mx-auto md:mx-0 md:mr-8" />
         </div>
         <div className="w-full md:w-1/3 text-center md: mb-8 md:mb-0">
           <h2 className="text-3xl font-bold mb-4">Wanna Hire me? Or just wanna discuss a cool project to collab on?</h2>
