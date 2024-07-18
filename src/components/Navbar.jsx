@@ -70,11 +70,9 @@ const Navbar = () => {
       {menuOpen && (
         <div className={`md:hidden ${darkMode ? 'bg-gray-900' : 'bg-white'} shadow-lg`}>
           <ul className="flex flex-col items-center space-y-6 py-4">
-            <li><a href="#about" className="hover:text-indigo-500" onClick={() => setMenuOpen(false)}>About</a></li>
             <li><a href="#skills" className="hover:text-indigo-500" onClick={() => setMenuOpen(false)}>Skills</a></li>
             <li><a href="#projects" className="hover:text-indigo-500" onClick={() => setMenuOpen(false)}>Projects</a></li>
             <li><a href="#experience" className="hover:text-indigo-500" onClick={() => setMenuOpen(false)}>Experience</a></li>
-            <li><a href="#contact" className="hover:text-indigo-500" onClick={() => setMenuOpen(false)}>Contact</a></li>
           </ul>
           <div className="flex flex-col items-center space-y-4 py-4">
             <a href="https://github.com/KUSHARGAVARMA" target="_blank" rel="noopener noreferrer" className="hover:text-indigo-500"><FaGithub size={24} className="text-indigo-600" /></a>
