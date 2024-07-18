@@ -48,7 +48,7 @@ const Navbar = () => {
           </div>
         </div>
         <ul className={`hidden md:flex space-x-6 ${darkMode ? 'text-gray-300' : 'text-gray-700'}`}>
-          <li><a href="#about" className="hover:text-indigo-500">About</a></li>
+          <li><a href="#header" className="hover:text-indigo-500">About</a></li>
           <li><a href="#skills" className="hover:text-indigo-500">Skills</a></li>
           <li><a href="#projects" className="hover:text-indigo-500">Projects</a></li>
           <li><a href="#experience" className="hover:text-indigo-500">Experience</a></li>
