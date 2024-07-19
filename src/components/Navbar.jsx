@@ -56,7 +56,7 @@ const Navbar = () => {
           <li><button onClick={() => scrollToComponent('hire-me')} className="hover:text-indigo-500">Contact</button></li>
         </ul>
         <div className="hidden md:flex space-x-4 items-center">
-        <a href="https://wa.me/8505988865"target="_blank" rel="noopener noreferrer" className="hover:text-indigo-500">
+        <a href="https://wa.me/8505988865?text=Hello%20Kushagra%20Varma" target="_blank" rel="noopener noreferrer" className="hover:text-indigo-500">
             <FaWhatsapp size={30}  />
           </a>
           <a href="https://github.com/KUSHARGAVARMA" target="_blank" rel="noopener noreferrer" className="hover:text-indigo-500"><FaGithub size={24} className="text-indigo-600" /></a>

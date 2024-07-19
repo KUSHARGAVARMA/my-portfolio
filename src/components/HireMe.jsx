@@ -17,7 +17,7 @@ const HireMe = () => {
             <p>New Delhi, Delhi, India</p>
             <p>Email:<a href='mailto:kushavrm008@gmail.com'> kushavrm008@gmail.com</a></p>
             <p >Phone:<a href="tel:+918505988865">+918505988865 </a>
-            <a href="https://wa.me/8505988865" className="inline-block ml-2">
+            <a href="https://wa.me/8505988865?text=Hello%20Kushagra%20Varma" className="inline-block ml-2">
             <FaWhatsapp size={30} className="inline" />
           </a>
             </p>
