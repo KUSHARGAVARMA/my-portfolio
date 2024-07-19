@@ -1,27 +1,27 @@
 import React from 'react';
-import { SiReact, SiJavascript, SiHtml5, SiCss3, SiPython, SiDlib, SiNodedotjs, SiMongodb, SiRedux,SiC} from 'react-icons/si';
+import { SiReact, SiJavascript, SiHtml5, SiCss3, SiPython, SiDlib, SiNodedotjs, SiMongodb, SiRedux,SiC,SiAmazonec2,SiPostman} from 'react-icons/si';
 import { useTheme } from '../ThemeContext';
 
 const projects = [
   {
     title: "E-Commerce App",
-    description: "Built a robust e-commerce app using React and Django with PostgreSQL. Implemented dynamic product listings, search, multi-language support, and responsive design.",
+    description: "Built a robust e-commerce app using React. Implemented dynamic product listings, search, multi-language support, and responsive design.",
     demoLink: "https://mystore-ecom-fe.vercel.app/",
     repoLink: "https://github.com/KUSHARGAVARMA/mystore-ecom-fe",
     technologies: ["React", "React Router", "Material UI", "React State & Props"],
     icons: [<SiReact />, <SiReact />,  <SiReact />],
   },
   {
-    title: "Facial Recognition System",
+    title: "Hostel Attendace System",
     description: "Developed a system using Python and the DLIB library for face detection and gate control.",
-    technologies: ["Python", "DLIB"],
-    icons: [<SiPython />, <SiDlib />],
+    technologies: ["Python", "Embedded Systems","DLIB","AWS Cloud"],
+    icons: [<SiPython />, <SiC/>,<SiDlib />,<SiAmazonec2/>],
   },
   {
     title: "Dreamfolks-Rupay Credit Card Airport Lounge Entry System",
     description: "An automated system for lounge entry at Delhi airport.",
-    technologies: ["Python","Embedded Systems","JavaScript", "HTML5", "CSS3"],
-    icons: [<SiPython/>,<SiC/>,<SiJavascript />, <SiHtml5 />, <SiCss3 />],
+    technologies: ["Python","Postman","Embedded Systems","JavaScript", "HTML5", "CSS3"],
+    icons: [<SiPython/>,<SiPostman/>,<SiC/>,<SiJavascript />, <SiHtml5 />, <SiCss3 />],
   },
   {
     title: "OyeBusy Blog",
