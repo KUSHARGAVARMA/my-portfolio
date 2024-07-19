@@ -1,5 +1,5 @@
 import React from 'react';
-import { SiReact, SiJavascript, SiHtml5, SiCss3, SiPython, SiDlib, SiNodedotjs, SiMongodb, SiRedux } from 'react-icons/si';
+import { SiReact, SiJavascript, SiHtml5, SiCss3, SiPython, SiDlib, SiNodedotjs, SiMongodb, SiRedux,SiC} from 'react-icons/si';
 import { useTheme } from '../ThemeContext';
 
 const projects = [
@@ -20,8 +20,8 @@ const projects = [
   {
     title: "Dreamfolks-Rupay Credit Card Airport Lounge Entry System",
     description: "An automated system for lounge entry at Delhi airport.",
-    technologies: ["JavaScript", "HTML5", "CSS3"],
-    icons: [<SiJavascript />, <SiHtml5 />, <SiCss3 />],
+    technologies: ["Python","Embedded Systems","JavaScript", "HTML5", "CSS3"],
+    icons: [<SiPython/>,<SiC/>,<SiJavascript />, <SiHtml5 />, <SiCss3 />],
   },
   {
     title: "OyeBusy Blog",
@@ -30,7 +30,7 @@ const projects = [
     icons: [<SiReact />, <SiRedux />, <SiNodedotjs />],
   },
   {
-    title: "TalaashMagazine",
+    title: "Talaash Magazine",
     description: "Blog reading site where users can read and upload content.",
     technologies: ["React", "Node.js", "MongoDB"],
     icons: [<SiReact />, <SiNodedotjs />, <SiMongodb />],
