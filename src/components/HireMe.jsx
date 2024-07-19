@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaGithub, FaLinkedin, FaMedium, FaYoutube } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaMedium, FaYoutube,FaWhatsapp } from 'react-icons/fa';
 import avatarImage from "../assets/HireMe.png";
 
 const HireMe = () => {
@@ -15,8 +15,13 @@ const HireMe = () => {
         <div className="w-full md:w-1/3 text-center">
           <div className="space-y-2 mb-4">
             <p>New Delhi, Delhi, India</p>
-            <p>Email: kushavrm008@gmail.com</p>
-            <p>Phone: +91 8505988865</p>
+            <p>Email:<a href='mailto:kushavrm008@gmail.com'> kushavrm008@gmail.com</a></p>
+            <p >Phone:<a href="tel:+918505988865">+918505988865 </a>
+            <a href="https://wa.me/8505988865" className="inline-block ml-2">
+            <FaWhatsapp size={30} className="inline" />
+          </a>
+            </p>
+          
           </div>
           <div className="flex justify-center ">
             <a href="https://github.com/KUSHARGAVARMA" target="_blank" rel="noopener noreferrer" className="text-indigo-600 hover:text-indigo-400">

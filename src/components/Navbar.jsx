@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { FaGithub, FaLinkedin, FaMedium, FaYoutube, FaMoon, FaSun } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaMedium, FaYoutube, FaMoon, FaSun,FaWhatsapp } from 'react-icons/fa';
 import { useTheme } from '../ThemeContext';
 import avatarImage from '../assets/HireMe.png';
 
@@ -56,6 +56,9 @@ const Navbar = () => {
           <li><button onClick={() => scrollToComponent('hire-me')} className="hover:text-indigo-500">Contact</button></li>
         </ul>
         <div className="hidden md:flex space-x-4 items-center">
+        <a href="https://wa.me/8505988865"target="_blank" rel="noopener noreferrer" className="hover:text-indigo-500">
+            <FaWhatsapp size={30}  />
+          </a>
           <a href="https://github.com/KUSHARGAVARMA" target="_blank" rel="noopener noreferrer" className="hover:text-indigo-500"><FaGithub size={24} className="text-indigo-600" /></a>
           <a href="https://www.linkedin.com/in/kushagra-varma-97433418b/" target="_blank" rel="noopener noreferrer" className="hover:text-indigo-500"><FaLinkedin size={24} className="text-indigo-600" /></a>
           <a href="https://medium.com/@kushavrm008" target="_blank" rel="noopener noreferrer" className="hover:text-indigo-500"><FaMedium size={24} className="text-indigo-600" /></a>
@@ -79,6 +82,9 @@ const Navbar = () => {
             <li><button onClick={() => { scrollToComponent('experience'); setMenuOpen(false); }} className="hover:text-indigo-500">Experience</button></li>
          </ul>
           <div className="flex flex-col items-center space-y-4 py-4">
+          <a href="https://wa.me/8505988865"target="_blank" rel="noopener noreferrer" className="hover:text-indigo-500">
+            <FaWhatsapp size={30}  />
+          </a>
             <a href="https://github.com/KUSHARGAVARMA" target="_blank" rel="noopener noreferrer" className="hover:text-indigo-500"><FaGithub size={24} className="text-indigo-600" /></a>
             <a href="https://www.linkedin.com/in/kushagra-varma-97433418b/" target="_blank" rel="noopener noreferrer" className="hover:text-indigo-500"><FaLinkedin size={24} className="text-indigo-600" /></a>
             <a href="https://medium.com/@kushavrm008" target="_blank" rel="noopener noreferrer" className="hover:text-indigo-500"><FaMedium size={24} className="text-indigo-600" /></a>
