@@ -82,7 +82,7 @@ const Navbar = () => {
             <li><button onClick={() => { scrollToComponent('experience'); setMenuOpen(false); }} className="hover:text-indigo-500">Experience</button></li>
          </ul>
           <div className="flex flex-col items-center space-y-4 py-4">
-          <a href="https://wa.me/8505988865"target="_blank" rel="noopener noreferrer" className="hover:text-indigo-500">
+          <a href="https://wa.me/8505988865?text=Hello%20Kushagra%20Varma"target="_blank" rel="noopener noreferrer" className="hover:text-indigo-500">
             <FaWhatsapp size={30}  />
           </a>
             <a href="https://github.com/KUSHARGAVARMA" target="_blank" rel="noopener noreferrer" className="hover:text-indigo-500"><FaGithub size={24} className="text-indigo-600" /></a>
