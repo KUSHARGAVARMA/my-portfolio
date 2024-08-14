@@ -49,7 +49,6 @@ const Navbar = () => {
         </div>
         <ul className={`hidden md:flex space-x-6 ${darkMode ? 'text-gray-300' : 'text-gray-700'}`}>
         <li><button onClick={() => scrollToComponent('header')} className="hover:text-indigo-500">About</button></li>
-        <li><a href="#skills" className="hover:text-indigo-500">Skills</a></li>
         <li><button onClick={() => scrollToComponent('skills')} className="hover:text-indigo-500">Skills</button></li>
           <li><button onClick={() => scrollToComponent('projects')} className="hover:text-indigo-500">Projects</button></li>
           <li><button onClick={() => scrollToComponent('experience')} className="hover:text-indigo-500">Experience</button></li>
